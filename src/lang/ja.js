@@ -62,7 +62,9 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: '多言語',
     externalLink: '外部リンク',
-    profile: 'プロフィール'
+    profile: 'プロフィール',
+    tools: '道具',
+    safeDaysCalculator: '安全期間計算機'
   },
   navbar: {
     dashboard: 'トップ',

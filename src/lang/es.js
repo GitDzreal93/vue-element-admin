@@ -62,7 +62,9 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: 'I18n',
     externalLink: 'Enlace externo',
-    profile: 'Profile'
+    profile: 'Profile',
+    tools: 'Herramienta',
+    safeDaysCalculator: 'Calculadora del período de seguridad'
   },
   navbar: {
     logOut: 'Salir',

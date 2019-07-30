@@ -62,7 +62,9 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: 'I18n',
     externalLink: 'External Link',
-    profile: 'Profile'
+    profile: 'Profile',
+    tools: 'Tools',
+    safeDaysCalculator: 'Safe Days Calculator'
   },
   navbar: {
     dashboard: 'Dashboard',

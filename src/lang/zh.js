@@ -62,7 +62,9 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: '国际化',
     externalLink: '外链',
-    profile: '个人中心'
+    profile: '个人中心',
+    tools: '实用小工具',
+    safeDaysCalculator: '安全期计算器'
   },
   navbar: {
     dashboard: '首页',
@@ -171,5 +173,26 @@ export default {
     tagsView: '开启 Tags-View',
     fixedHeader: '固定 Header',
     sidebarLogo: '侧边栏 Logo'
+  },
+  tools: {
+    welcome: '欢迎使用',
+    safeDaysCalculator: '安全期计算器',
+    lastPeriodLabel: '上次月经时间',
+    datePickerPlaceholder: '选择日期',
+    shortPeriodLabel: '最短月经周期',
+    longPeriodLabel: '最长月经周期',
+    periodTooltip: '如果您的月经周期不是28天，请先设置您的周期，再计算！',
+    dayInputPlaceholder: '请输入天数',
+    calcButton: '计算',
+    tips: '小贴士',
+    calendarTipsTag: '日历推算法',
+    calendarTipsContent: '在月经周期准确、规律的情况下，排卵日是下一次月经来潮第一天向前倒数 14 天，在一个月经周内，除去排卵日前五天和后四天、月经期，都是安全期。',
+    warmTipsTag: '温馨提醒',
+    warmTipsTagContent: '根据安全期避孕，失败率很高，如果没把握，还是乖乖选择其他避孕方式吧，以免意外“造人”成功，给生活带来不必要的麻烦。',
+    calcResult: '计算结果',
+    today: '今天',
+    period: '月经期',
+    ovulation: '排卵期',
+    safeDay: '安全期'
   }
 }
