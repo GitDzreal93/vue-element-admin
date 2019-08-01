@@ -64,7 +64,8 @@ export default {
     externalLink: 'External Link',
     profile: 'Profile',
     tools: 'Tools',
-    safeDaysCalculator: 'Safe Days Calculator'
+    safeDaysCalculator: 'Safe Days Calculator',
+    navigation: 'Home'
   },
   navbar: {
     dashboard: 'Dashboard',

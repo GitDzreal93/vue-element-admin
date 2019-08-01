@@ -1,6 +1,6 @@
 export default {
   route: {
-    dashboard: '首页',
+    dashboard: '面板',
     documentation: '文档',
     guide: '引导页',
     permission: '权限测试页',
@@ -64,7 +64,8 @@ export default {
     externalLink: '外链',
     profile: '个人中心',
     tools: '实用小工具',
-    safeDaysCalculator: '安全期计算器'
+    safeDaysCalculator: '安全期计算器',
+    navigation: '首页'
   },
   navbar: {
     dashboard: '首页',
