@@ -5,10 +5,18 @@ import elementEnLocale from 'element-ui/lib/locale/lang/en' // element-ui lang
 import elementZhLocale from 'element-ui/lib/locale/lang/zh-CN'// element-ui lang
 import elementEsLocale from 'element-ui/lib/locale/lang/es'// element-ui lang
 import elementJaLocale from 'element-ui/lib/locale/lang/ja'// element-ui lang
+import elementRuLocale from 'element-ui/lib/locale/lang/ru-RU'// element-ui lang
+import elementFrLocale from 'element-ui/lib/locale/lang/fr'// element-ui lang
+import elementArLocale from 'element-ui/lib/locale/lang/ar'// element-ui lang
+import elementPtLocale from 'element-ui/lib/locale/lang/pt'// element-ui lang
 import enLocale from './en'
 import zhLocale from './zh'
 import esLocale from './es'
 import jaLocale from './ja'
+import ruLocale from './ru-RU'
+import frLocale from './fr'
+import arLocale from './ar'
+import ptLocale from './pt'
 
 Vue.use(VueI18n)
 
@@ -28,6 +36,22 @@ const messages = {
   ja: {
     ...jaLocale,
     ...elementJaLocale
+  },
+  ru: {
+    ...ruLocale,
+    ...elementRuLocale
+  },
+  fr: {
+    ...frLocale,
+    ...elementFrLocale
+  },
+  ar: {
+    ...arLocale,
+    ...elementArLocale
+  },
+  pt: {
+    ...ptLocale,
+    ...elementPtLocale
   }
 }
 export function getLanguage() {

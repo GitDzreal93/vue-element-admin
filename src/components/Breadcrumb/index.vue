@@ -40,6 +40,7 @@ export default {
       const first = matched[0]
 
       if (!this.isDashboard(first)) {
+        // 面包屑的根结点 Dzreal改动
         matched = [{ path: '/dashboard', meta: { title: 'dashboard' }}].concat(matched)
       }
 

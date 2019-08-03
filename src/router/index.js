@@ -8,7 +8,7 @@ import Layout from '@/layout'
 
 /* Router Modules */
 // import componentsRouter from './modules/components'
-import toolsRouter from './modules/tools'
+// import toolsRouter from './modules/tools'
 // import chartsRouter from './modules/charts'
 // import tableRouter from './modules/table'
 // import nestedRouter from './modules/nested'
@@ -87,13 +87,25 @@ export const constantRoutes = [
   {
     path: '',
     component: Layout,
-    redirect: 'index',
+    redirect: 'nav-util',
     children: [
       {
-        path: 'index',
+        path: 'nav-util',
         component: () => import('@/views/navigation/index'),
-        name: 'Navigation',
-        meta: { title: 'navigation', icon: 'clipboard', affix: true }
+        name: 'NavigationUtil',
+        meta: { title: 'navigationUtil', icon: 'clipboard', affix: true }
+      }
+    ]
+  },
+  {
+    path: '/nav-us',
+    component: Layout,
+    children: [
+      {
+        path: '/nav-us',
+        component: () => import('@/views/navigation/navigation-us'),
+        name: 'NavigationUS',
+        meta: { title: 'navigationUS', icon: 'clipboard', affix: true }
       }
     ]
   }
@@ -198,7 +210,8 @@ export const asyncRoutes = [
   // },
 
   /** when your routing map is too long, you can split it into small modules **/
-  toolsRouter,
+  // 小工具
+  // toolsRouter,
   // componentsRouter,
   // chartsRouter,
   // nestedRouter,
